@@ -1,0 +1,13 @@
+[package]
+name = "teapot_ride"
+version = "0.1.0"
+authors = ["Daniel Off <dan@techforpeace.com>"]
+edition = "2018"
+default-run = "teapot_ride"
+
+[dependencies]
+gl = "*"
+glfw = "*"
+cgmath = "*" #temporary
+ride = { path = "../ride" }
+ 

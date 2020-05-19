@@ -1,0 +1,29 @@
+[package]
+name = "ride"
+version = "0.1.0"
+authors = ["Daniel Off <dan@techforpeace.com>"]
+edition = "2018"
+
+[lib]
+name = "ride"
+path  = "src/lib.rs"
+
+[dependencies]
+freetype-rs = "*"
+gl          = "*"
+image       = "*"
+libc        = "*"
+cgmath       = "*"
+#ncollide_procedural = "*"
+num-traits  = "*"
+backtrace   = "*"
+ordered-float = "*"
+scan_fmt_count = { path = "../scan_fmt_count" }
+time         = "*"
+byteorder    = "*"
+ctrlc        = { version = "*", features = ["termination"] }
+
+[dev-dependencies]
+rand = "*"
+ncollide_transformation = "*"
+

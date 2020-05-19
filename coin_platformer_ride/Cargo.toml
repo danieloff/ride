@@ -1,0 +1,13 @@
+[package]
+name = "coin_platformer_ride"
+version = "0.1.0"
+authors = ["Daniel Off <dan@techforpeace.com>"]
+
+[dependencies]
+gl = "*"
+glfw = "*"
+enum_primitive = "*"
+num = "*"
+cgmath = "*"
+ride = { path = "../ride" }
+

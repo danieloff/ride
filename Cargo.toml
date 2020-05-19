@@ -1,0 +1,3 @@
+[workspace]
+members = ["ride", "teapot_ride", "coin_platformer_ride", "scan_fmt_count"]
+
